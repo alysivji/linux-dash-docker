@@ -1,0 +1,8 @@
+version: "3.6"
+
+services:
+  linux-dash:
+    image: alysivji/linux-dash
+    privileged: true
+    ports:
+      - "8100:80"
